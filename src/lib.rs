@@ -46,6 +46,7 @@ pub use status::StatusCode::{self, Ok, BadRequest, NotFound};
 pub use server::Server;
 pub use version::HttpVersion;
 
+/*
 macro_rules! unimplemented {
     () => ({
         panic!("unimplemented")
@@ -57,6 +58,7 @@ macro_rules! unimplemented {
         panic!(concat!("unimplemented: ", $fmt), $($arg)*)
     });
 }
+*/
 
 #[cfg(test)]
 mod mock;
