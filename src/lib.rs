@@ -1,6 +1,5 @@
 #![doc(html_root_url = "https://hyperium.github.io/hyper/")]
 #![deny(missing_docs)]
-#![deny(warnings)]
 #![deny(missing_debug_implementations)]
 #![cfg_attr(all(test, feature = "nightly"), feature(test))]
 
